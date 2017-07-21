@@ -1,0 +1,16 @@
+#login{
+	float: none;  
+    margin-top: 15%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+#title{
+	display: block;
+	margin-bottom: 25px;
+	color: #31b0d5;
+}
+#login_bt{
+	height: 38px;
+	margin-top: 12px;
+	font-size:18px;
+}

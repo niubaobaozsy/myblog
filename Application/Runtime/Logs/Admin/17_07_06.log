@@ -1,0 +1,321 @@
+[ 2017-07-06T09:16:03+08:00 ] ::1 /blog/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\blog\Application\Admin\Controller\AdminController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\NoteModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `blog_note` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `blog_note` ORDER BY note_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: pageSize D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_note` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: sing_path D:\wamp\www\blog\ThinkPHP\Common\functions.php 第 991 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:16:05+08:00 ] ::1 /blog/admin.php?c=admin&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T09:17:16+08:00 ] 127.0.0.1 /blog/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\blog\Application\Admin\Controller\AdminController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\NoteModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `blog_note` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_note` ORDER BY note_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: pageSize D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_note` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: sing_path D:\wamp\www\blog\ThinkPHP\Common\functions.php 第 991 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:17:19+08:00 ] 127.0.0.1 /blog/admin.php?c=admin&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T09:17:49+08:00 ] 127.0.0.1 /blog/admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\wamp\www\blog\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' D:\wamp\www\blog\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' D:\wamp\www\blog\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-06T09:19:01+08:00 ] 127.0.0.1 /blog/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: note_id D:\wamp\www\blog\Application\Admin\Controller\ContentController.class.php 第 49 行.
+NOTIC: [2048] Declaration of Common\Model\NoteModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `blog_note` [ RunTime:0.0090s ]
+SQL: INSERT INTO `blog_note` (`title`,`author`,`tag`,`thumb`,`description`,`date`) VALUES ('《php与mysql动态网站开发》 二','邹淑英','php','/blog/upload/2017/07/06/595d8fbd67cab.jpg','这本书很好，看的很认真','2017-07-06 09:19') [ RunTime:0.2270s ]
+NOTIC: [2048] Declaration of Common\Model\NoteContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\blog\Application\Common\Model\NoteContentModel.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `blog_note_content` [ RunTime:0.0210s ]
+SQL: INSERT INTO `blog_note_content` (`content`,`note_id`,`content_id`) VALUES ('
+php版本：5.5.12  &lt;br&gt;
+wamp:2.5 &lt;br&gt;
+mysql：5.6.17&lt;/p&gt;&lt;hr&gt;&lt;div class=&quot;md-section-divider&quot;&gt;&lt;/div&gt;&lt;h2 data-anchor-id=&quot;lcrj&quot; id=&quot;第三章-创建动态web站点&quot;&gt;第三章 创建动态Web站点&lt;/h2&gt;&lt;ol data-anchor-id=&quot;haqf&quot;&gt;
+&lt;li&gt;&lt;p&gt;包含多个文件 &lt;br&gt;
+1 路径:绝对路径：从根目录开始指出文件位置 &lt;br&gt;
+&lt;code&gt;include (\'C:/php/includes/file.php\');&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;include(\'/usr/xyz/includes/file.php\');&lt;/code&gt; &lt;br&gt;
+相对路径：从父文件中开始 &lt;br&gt;
+&lt;code&gt;include(\'../ex2/file.php\');&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;../&lt;/code&gt;指的是当前目录的上一级目录也就是当前目录的上衣及目录下的ex2下的file.php&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PHP有4个用于外部文件的函数： &lt;code&gt;include()、 include_once()、 require()和require_once()&lt;/code&gt;。 &lt;br&gt;
+include()和require()函数在正确工作时完全一样， &lt;br&gt;
+但是在它们失败时会表现得有所不同。如果 &lt;br&gt;
+include()函数不工作，就会向Web浏览器打印一个警告， &lt;br&gt;
+但是脚本会继续运行。 &lt;br&gt;
+如果&lt;strong&gt;require()失败&lt;/strong&gt;，就会打印一个错误，并且脚本会&lt;strong&gt;中止运行&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;这两个函数还有一个*_once()版本，它们保证处理的文件只会被包含一次&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;PEAR也就是为PHP扩展与应用库（PHP Extension and Application Repository），它是一个PHP扩展及应用的一个代码仓库。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;包含文件时，敏感文件用后缀为php，其他用html  inc 取名字最好语义化&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;处理 HTML 表单 &lt;br&gt;
+&lt;code&gt;$_SERVER[\'REQUEST_METHOD\']&lt;/code&gt;&lt;strong&gt;这个变量表示的是表单提交数据的方式&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;&lt;code&gt;&amp;lt;form action=&quot;222.php&quot; method=&quot;post&quot;&amp;gt;&lt;/code&gt; &lt;br&gt;
+  表单action属性下，如果在同一文件夹下，可以直接这样写。记住，大概和php的path搜索有关。 &lt;br&gt;
+  你还可以通过使用无值的action属性，让表单提交回它自身。 &lt;br&gt;
+  &lt;code&gt;&amp;lt;form action=&quot;&quot; method=&quot;post&quot;&amp;gt;&lt;/code&gt; &lt;br&gt;
+  通过这样做，表单将总是提交回这个相同的页面，即使你往后更改了脚本的名称也会如此。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;建立黏性表单 &lt;br&gt;
+黏性表单（sticky form）只是一种标准的HTML表单，它能记住你是如何填写它的 &lt;br&gt;
+&lt;code&gt;&amp;lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;F&quot; &amp;lt;?php if ($gender == \'F\') { &lt;br&gt;
+echo \'checked=&quot;checked&quot;\'; &lt;br&gt;
+} ?&amp;gt;/&amp;gt;&lt;/code&gt; &lt;br&gt;
+将php代码放在html代码里，这种方法在最开始学习php时，并不推荐（目的是为了前后端分离）。但其实这是php很擅长的地方，无需抱有怀疑。 &lt;br&gt;
+&lt;code&gt;&amp;lt;input type=&quot;radio&quot; name=&quot;gallon_price&quot; value=&quot;4.00&quot; &amp;lt;?php&lt;/code&gt; &lt;code&gt;if(isset($_POST[\'gallon_price\'])&amp;amp;&amp;amp; $_POST[\'gallon_price\'] ==&lt;/code&gt; &lt;code&gt;4.00){&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;echo &quot;checked = checked&quot;;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;}?&amp;gt;/&amp;gt;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;&amp;lt;input type=&quot;text&quot; name=&quot;distance&quot;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;value=&quot;&amp;lt;?php if(isset($_POST[\'distance\'])){&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;echo $_POST[\'distance\'];&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;}&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;?&amp;gt;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;&amp;lt;option value=&quot;10&quot; &amp;lt;?php if(isset($_POST[\'efficiency\']) &amp;amp;&amp;amp;&lt;/code&gt; &lt;code&gt;$_POST[\'efficiency\'] == 10){&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;echo &quot;selected =selected&quot;;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;}?&amp;gt;&amp;gt;Terrible&amp;lt;/option&amp;gt;&lt;/code&gt; &lt;br&gt;
+已经实现了这节代码：问题： &lt;br&gt;
+1 照着写的过程，不会去思考写这个函数干嘛的，只知道整句是干嘛的。 &lt;br&gt;
+所以以后写代码要具体到知道自己写的这个（函数，变量，一个逗号，一个分号）是要被用来干嘛。 &lt;br&gt;
+2 问题出在&lt;code&gt;if｛｝&lt;/code&gt;闭合位置，&lt;code&gt;isset（）&lt;/code&gt;函数闭合位置，&lt;code&gt;echo&lt;/code&gt;语句结尾&lt;code&gt;；&lt;/code&gt;。&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;应该总是用双引号括住HTML属性，特别是表单输入框的value属性。如果没有这样做，由多个单词组成的值（如Elliott Smith）在Web浏览器中只会显示为Elliott。 &lt;br&gt;
+  &lt;strong&gt;书上这样说，但是亲测没有区别&lt;/strong&gt; &lt;br&gt;
+  &lt;code&gt;&amp;lt;?php $q = \'wwwdv ivowinvw\' ?&amp;gt;&lt;/code&gt; &lt;br&gt;
+  &lt;code&gt;&amp;lt;input type=&quot;text&quot; name=&quot;tes1&quot; value=\'&amp;lt;?php echo $q?&amp;gt;\'&amp;gt;&lt;/code&gt; &lt;br&gt;
+  &lt;code&gt;&amp;lt;input type=&quot;text&quot; name=&quot;tes2&quot; value=&quot;&amp;lt;?php echo $q?&amp;gt;&quot;&amp;gt;&lt;/code&gt; &lt;br&gt;
+  &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Calculate!&quot; /&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; &lt;br&gt;
+  打印出post数据 &lt;br&gt;
+  &lt;code&gt;array (size=3)&lt;/code&gt; &lt;br&gt;
+  &lt;code&gt;\'tes1\' =&amp;gt; string \'wwwdv ivowinvw\' (length=14)&lt;/code&gt; &lt;br&gt;
+  &lt;code&gt;\'tes2\' =&amp;gt; string \'wwwdv ivowinvw\' (length=14)&lt;/code&gt; &lt;br&gt;
+  &lt;code&gt;\'submit\' =&amp;gt; string \'Calculate!\' (length=10)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;创建自己的函数 &lt;br&gt;
+创建自定义函数的最常见目的如下所述： &lt;br&gt;
+将重复代码关联到一个函数调用中； &lt;br&gt;
+将敏感的或复杂的过程独立出来； &lt;br&gt;
+让常用代码更易于重用。&lt;/p&gt;
+
+&lt;p&gt;相对于一上来就将如何创建函数，这本书真的好太多。为啥我要去创建函数啊？&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;数值用单引号括了起来。如果不这样做， PHP会将数值尾部的0丢弃。 &lt;br&gt;
+  &lt;code&gt;$a = 4.00;&lt;/code&gt;   &lt;code&gt;var_dump($a);&lt;/code&gt;    结果是： &lt;code&gt;float 4&lt;/code&gt; &lt;br&gt;
+  也就是一个数，最后面带的0，在存储的时候会被省略。 &lt;br&gt;
+  &lt;code&gt;4.320000&lt;/code&gt;会被存储为&lt;code&gt;4.32&lt;/code&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;设置默认参数 &lt;br&gt;
+&lt;code&gt;function greet ($name, $msg = \'Hello\') {&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;echo &quot;$msg, $name!&quot;;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;}&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;greet ($surname, $message);&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;greet (\'Zoe\');&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;greet (\'Sam\', \'Good evening\');&lt;/code&gt; &lt;br&gt;
+非必须设置了默认值的参数应该放在  必须参数后面 &lt;br&gt;
+只有greet()不会工作，并且如果不给&lt;code&gt;$name&lt;/code&gt;传递一个值，就无法给$msg传递一个值（必须按顺序传递参数值，不能跳过必需的参数）。 &lt;br&gt;
+&lt;code&gt;&amp;lt;?php&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;function test($a , $b=3,$y){&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;echo \'oooo \'.$a.$b;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;}&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;?&amp;gt;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;&amp;lt;?php&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;test( 2,,2);&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;?&amp;gt;&lt;/code&gt; &lt;br&gt;
+( ! ) Parse error: syntax error, unexpected \',\' in D:\\wamp\\www\\php_web\\calculator.php on line 13&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;由此看来，必须放在后面的原因是php函数设置问题,&lt;strong&gt;函数写参数中不能出现&lt;code&gt;&amp;amp;nbsp;,&lt;/code&gt;之类的东西，解析不了&lt;/strong&gt;。 &lt;br&gt;
+  所以将所有默认参数放后面，如果有值就写，无值就不写像第二个great一样。但是如果两个默认参数，写在前面的那个不想传第二个传的话，是没有办法实现的。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;为了不给函数的参数传递任何值，可以使用空字符串（\' \'）、 NULL或FALSE。（只不过没传值，但是实际是传递了这个参数） &lt;br&gt;
+在PHP手册中，方括号（[   ]）用于指示函数的可选参数 &lt;br&gt;
+&lt;code&gt;test($a[,$b,$c])&lt;/code&gt;  &lt;code&gt;$b&lt;/code&gt; &lt;code&gt;$c&lt;/code&gt; 都是可选参数&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;从函数返回值 &lt;br&gt;
+要让函数返回一个值，可以使用return语句 &lt;br&gt;
+当调用这个返回值的函数时，可以将函数结果赋予一个变量。&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;return语句会终止代码执行，因此，在执行return语句之后，永远也不会运行函数内的任何代码。 &lt;br&gt;
+  要让一个&lt;strong&gt;函数返回多个值&lt;/strong&gt;，可以使用array()函数返回一个数组。 &lt;br&gt;
+  &lt;code&gt;return array ($var1, $var2);&lt;/code&gt; &lt;br&gt;
+  在调用返回一个数组的函数时，可使用list()函数将数组元素赋予各个变量： &lt;br&gt;
+  &lt;code&gt;list($v1, $v2) = some_function();&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;变量作用域 &lt;br&gt;
+一个函数内使用的变量不能在其外部使用，在一个函数外部定义的变量不能在其内部使用。 &lt;br&gt;
+要改变一个函数内的变量的作用域，可以使用global语句。 &lt;br&gt;
+&lt;code&gt;function function_name() {&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;global $var;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;}&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;$var = 20;&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;function_name(); // Function call.&lt;/code&gt; &lt;br&gt;
+避开变量作用域的另一个方法是利用超全局变量：&lt;code&gt;$_GET&lt;/code&gt;、 &lt;code&gt;$_POST&lt;/code&gt;、 &lt;code&gt;$_REQUEST&lt;/code&gt;等。这些变量在你的函数内是自动可访问的（因此，它们是超全局变量）。也可以添加元素到$GLOBALS数组中，使得可以在函数内使用它们。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;div class=&quot;md-section-divider&quot;&gt;&lt;/div&gt;&lt;h2 data-anchor-id=&quot;zpt0&quot; id=&quot;第四章-mysql简介133&quot;&gt;第四章  MYSQL简介（133）&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;ol data-anchor-id=&quot;544a&quot;&gt; &lt;br&gt;
+&lt;li&gt;mysql区分大小写在不同的环境下不一样，所以就当区分，表名和字段都区分&lt;/li&gt;
+&lt;li&gt;字段类型：文本，数字，日期和时间。 &lt;br&gt;
+还有两种特殊类型（ENUM和SET）允许为字段定义一系列可接受的值。 ENUM列只能从数千个可能的值中取一个值，而SET允许从最多64个可能的值中取多个值。它们在MySQL中都是可用的，但是并非每一种数据库应用程序都提供了它们。&lt;/li&gt;
+&lt;li&gt;char 和varchar，前者是定长的，后者根据数据而定。密码一般使用char&lt;/li&gt;
+&lt;li&gt;如果你在使用非整型时需要绝对精度，DECIMAL要比FLOAT和DOUBLE更合适。&lt;/li&gt;
+&lt;li&gt;MySQL有一个BOOLEAN类型（其实就是TINYINT(1)）， 0表示FALSE，1表示TRUE。&lt;/li&gt;
+&lt;li&gt;根据使用的MySQL版本，当发生INSERT或UPDATE时，即使没有为特定的TIMESTAMP类型的字段指定任何值，它也会被自动设置为当前日期和时间。如果一个表具有多个TIMESTAMP列，那么在执行INSERT或UPDATE时，只会更新其中的第一个列。&lt;/li&gt;
+&lt;li&gt;许多数据类型都具有同义名称： INT和INTEGER， DEC和DECIMAL &lt;br&gt;&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  关于列的属性还有很多，书上写的一些在实际建库的时候没用到就没写，等以后用到了在添加&lt;/blockquote&gt;&lt;/li&gt;
+  &lt;/ol&gt;&lt;div class=&quot;md-section-divider&quot;&gt;&lt;/div&gt;&lt;h3 data-anchor-id=&quot;lznq&quot; id=&quot;选择其他的列属性&quot;&gt;选择其他的列属性&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ol data-anchor-id=&quot;kgiv&quot;&gt; &lt;br&gt;
+&lt;li&gt;&lt;p&gt;可以把数据类型标记为UNSIGNED，这把存储的数据限制为正数或0。这还会有效地把可以存储的正数的范围加倍（因为不会保存负数，参见表4-2）。还可以把数字类型标记为ZEROFILL，这意味着将用0填充任何多余的空间（ZEROFILL还自动地设置UNSIGNED）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;文本列也可以定义字符集（characterset）或排序方式（collation）。这意味着你将使用多种语言 &lt;br&gt;
+  列的默认值必须是静态值，不能是函数的执行结果（唯一例外是：TIMESTAMP列的默认值可以被赋为CURRENT_TIMESTAP）。 &lt;br&gt;
+  TEXT列不能赋默认值&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;索引、键和AUTO_INCREMENT&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据库中的索引（index）是请求数据库留意特定列或列组合的值的一种方式（这是一种宽松的定义）&lt;/strong&gt;。其最终效果是，在检索记录时会提高性能， &lt;br&gt;
+但是在插入或更新记录时，稍微有一点儿阻碍性能。 &lt;br&gt;
+数据库表中的键（key）是用于设计更复杂数据库的规范化过程的组成部分（参见第6章）。有 &lt;br&gt;
+两种类型的键：主键（primary key）和外键（foreign key）。每张表都应该有一个主键，一张表中的 &lt;br&gt;
+主键通常被链接为另一张表中的外键。 &lt;br&gt;
+表的主键是一种引用记录的人工方式，应该遵守下列三条规则。 &lt;br&gt;
+(1) 它必须总是具有一个值。 &lt;br&gt;
+(2) 那个值永远不会变化。 &lt;br&gt;
+(3) 对于表中的每一条记录，那个值必须是唯一的。&lt;/li&gt;
+&lt;li&gt;在MySQL客户端，你也可以使用\\G代替分号来结束SQL命令。对于查询返回的结果，&lt;strong&gt;用\\G可以将结果以垂直列表的方式显示出来&lt;/strong&gt;，这要比水平列表更易于浏览。 &lt;br&gt;
+如果你正在执行一条较长的语句并且犯了一个错误，可以输入c并按下Return键或Enter键来取消当前的操作。如果MySQL认为遗漏了一个右单引号或双引号（如\'&amp;gt;和&quot;&amp;gt;提示符所提示的那样），那么需要首先输入合适的引号。 &lt;br&gt;
+
+&lt;blockquote class=&quot;white-blockquote&quot;&gt;
+  &lt;p&gt;还不知道怎么用&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+  &lt;/ol&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p data-anchor-id=&quot;eh3o&quot;&gt;数字类型的长度属性不会影响列中可以存储的值的范围。定义为TINYINT(1)或TINYINT(20)的列可以存储完全相同的值。与之相反，对于整数，长度指示显示宽度；对于小数，长度指示可以存储的总位数。 &lt;br&gt;
+  长度属性还不知道什么意思，这本书没讲，以后就能知道。应该是可以显示的宽度，所以和实际可存储的长度无关。&lt;/p&gt;&lt;/div&gt;
+\\','134','134') [ RunTime:0.1540s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\blog\Application\Admin\Controller\ContentController.class.php on line 63 and defined D:\wamp\www\blog\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\blog\Application\Common\Common\function.php 第 8 行.
+
+[ 2017-07-06T09:19:03+08:00 ] 127.0.0.1 /blog/admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\blog\Application\Admin\Controller\AdminController.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\NoteModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `blog_note` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_note` ORDER BY note_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: pageSize D:\wamp\www\blog\Application\Common\Model\NoteModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_note` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: sing_path D:\wamp\www\blog\ThinkPHP\Common\functions.php 第 991 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
